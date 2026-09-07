@@ -21,7 +21,7 @@ associate submitted votes with the same extension installation.
 For dislike-count requests: the current video ID and, when available, the visible like count. For registration and vote
 submission: the random extension user ID, video ID, selected vote, timestamp, and network address used for abuse
 controls. Optional premium features use the account ID, name, email address, profile image, membership information, and
-service session token returned by a Patreon or GitHub sign-in initiated by the user. For version 4.0.5 and its matching
+service session token returned by a Patreon or GitHub sign-in initiated by the user. For version 4.0.6 and its matching
 backend release, Patreon access is determined from currently entitled tier IDs rather than financial information.
 
 ### How is my IP stored?
@@ -33,7 +33,7 @@ abuse prevention and aggregate analytics. It is not sold or used for advertising
 
 Premium analytics sign-in is optional and starts only after the user chooses Patreon or GitHub login in the extension.
 The OAuth flow returns account details and a Return YouTube Dislike session token used to authenticate premium API
-requests. In version 4.0.5 and its matching backend release, Patreon eligibility uses currently entitled tier IDs;
+requests. In version 4.0.6 and its matching backend release, Patreon eligibility uses currently entitled tier IDs;
 the service does not request or use membership amounts, charge dates or status, lifetime payments, or patron status.
 Firefox asks for separate authentication-data consent before account traffic begins. Signing out removes
 the stored account details and session from the extension. Revoking Firefox's authentication-data permission also clears the
